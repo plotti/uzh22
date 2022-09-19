@@ -71,38 +71,14 @@ Has something gone wrong? Taking too long? Hold down Control and hit C, a.k.a. C
 
 Hier installieren wir Zusatzprogramme und bereiten den Computer darauf vor, dass er in Zukunft einfacher Zusatzpakete installieren kann. Den Terminal öffnen und mit folgenden Befehlen die Software installieren. Manchmal dauern die Installs etwas lange. Geduld. Es funktioniert alles richtig. Und all das müssen wir nur einmal machen. Nicht mehr, aber auch nicht weniger.
 
-### Weitere Install-Programme, jetzt auch für Linux
+- **Pip3** ist das gängigste Install-Modul, aber wird werden das etwas populärere conda benutzen weil es am besten bei windows und mac funktioniert. 
 
-- **Pip3** ist das gängigst Install-Modul, das wir verwenden werden. Es lässt sich folgendermassen installieren: ```pip3 install -U pip``` zur Sicherheit installieren wird noch ```pip install -U pip```. Wenn das nicht funktioniert hat versuche es mit ```sudo pip install -U pip```.
+### Install-Programme und Python3
 
-### Install-Programme und Python3
-
-**Mac OS X** (auf Linux sollte Python 3 schon installiert sein)
-
-- Diese Install-Programme sind auf manchen Macs bereits vorinstalliert. Auf
-anderen nicht. Zur Sicherheit einfach diesen Befehl eingeben: ```xcode-select --installs```
-
-- Mit **Homebrew** ist es einfacher, Pakete zu installieren. Der Befehl zum
-Initialsetup ist etwas kompliziert. Müssen wir aber nur einmal
-eingeben. ```ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```
-
-- Und, damit alles etwas runde läuft, diesen Befehl:
-- ```echo 'export PATH=/usr/local/bin:$PATH' >> ~/.bash_profile```
-- ```source ~/.bash_profile```
-
-- Und jetzt können wir mit Befehl Python 3 installieren: ```brew install python3```
-
-### Erste Zusatzpakete
-
-- Installieren wir mal zum üben BeautifulSoup, eine Python-Library, die wir später
-brauchen werden, um Websites zu lesen. Also: ```pip install beautifulsoup4```.
-- Und dann installieren wir noch Jupyter Notebook: ```pip install jupyter notebook```.
+1. Geht auf https://www.anaconda.com/products/distribution und ladet euch das programm runter
+2. Führt es aus und ihr solltet schon in der Lage sein Code auf eurem Rechner auszuführen. 
 
 ### Github
 
-- Anleitung zur [Github-Installation](https://gist.github.com/derhuerst/1b15ff4652a867391f03), den Rest werden wir morgen anschauen.
-- ```git clone https://github.com/MAZ-CAS-DDJ/kurs_18_19.git```
-
-### Letzter Install (vorerst)
-
-- Jetzt, ganz am Ende, installieren wir noch eine letzte Software: Den Texteditor [Atom](https://atom.io/). Das tun wir ganz normal. So, wie ihr es gewohnt seid, Software zu installieren.
+- Geht auf https://github.com/ und macht euch dort einen kostenlosen Account. 
+- Geht auf https://desktop.github.com/ und ladet euch das Programm runter. 
