@@ -8,5 +8,5 @@ Die einzelnen Unterverzeichnisse entsprechen in etwa unseren Modulen
 
 # Wie ziehe ich die Unterrichtsmaterialien?
 
-```git clone https://github.com/plotti/uzh19.git```
+```git clone https://github.com/plotti/uzh22```
 
