@@ -10,3 +10,4 @@ Die einzelnen Unterverzeichnisse entsprechen in etwa unseren Modulen
 
 ```git clone https://github.com/plotti/uzh22```
 
+plotti was here
